@@ -10,10 +10,10 @@ This guide describes how to get started with Katib and run a few examples.
 
 ## Prerequisites
 
-You need to install the following Katib components to run examples:
+You need to install the following Katib components to run the examples:
 
-- Katib control plane [installed](/docs/components/katib/installation/#installing-control-plane).
-- Katib Python SDK [installed](/docs/components/katib/installation/#installing-python-sdk).
+- Katib control plane ([See install guide](/docs/components/katib/installation/#installing-control-plane)).
+- Katib Python SDK ([See install guide](/docs/components/katib/installation/#installing-python-sdk)).
 
 ## Getting Started with Katib Python SDK
 
@@ -27,11 +27,11 @@ F(a,b) = 4a - b^2
 $$
 </p>
 
-The bigger \(a\) and the lesser \(b\) value, the bigger the function value \(F\).
+The larger the value \(a\) gets, and/or the smaller \(b\) gets, the larger the result of the function \(F\).
 
 If you install Katib standalone, make sure that you
 [configure local `kubeconfig`](https://kubernetes.io/docs/tasks/access-application-cluster/access-cluster/#programmatic-access-to-the-api)
-to access your Kubernetes cluster where you installed Katib control plane.
+to access your Kubernetes cluster where you installed the Katib control plane.
 
 If you install Katib as part of Kubeflow Platform, you can open a new
 [Kubeflow Notebook](/docs/components/notebooks/quickstart-guide/) to run this script.
